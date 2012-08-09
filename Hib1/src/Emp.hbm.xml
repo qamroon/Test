@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.mycomp">
+	<class name="Emp" table="EMP">
+		<id name="empNumber" column="EMPNO">
+			<generator class="increment" />
+		</id>
+		<property name="empName" type="java.lang.String" column="empname" />
+		<property name="job"  column="job" type="string" />
+		<property name="sal"  column="sal" type="double"/>
+		<property name="empAddr"  />
+	</class>
+</hibernate-mapping>
+
+
+
