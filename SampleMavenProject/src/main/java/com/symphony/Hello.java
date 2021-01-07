@@ -9,7 +9,7 @@ public class Hello {
 		System.out.println("Welcome in SampleMavenProject");
 		System.out.println("Welcome in SampleMavenProject from Local");
 		System.out.println("some code writen");
-		
+		System.out.println("Welcome in SampleMavenProject form git");
 
 	}
 
